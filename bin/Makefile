@@ -153,6 +153,30 @@ src/first_app.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/VulkanGameEngine.dir/build.make CMakeFiles/VulkanGameEngine.dir/src/first_app.cpp.s
 .PHONY : src/first_app.cpp.s
 
+src/lve_pipeline.o: src/lve_pipeline.cpp.o
+.PHONY : src/lve_pipeline.o
+
+# target to build an object file
+src/lve_pipeline.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VulkanGameEngine.dir/build.make CMakeFiles/VulkanGameEngine.dir/src/lve_pipeline.cpp.o
+.PHONY : src/lve_pipeline.cpp.o
+
+src/lve_pipeline.i: src/lve_pipeline.cpp.i
+.PHONY : src/lve_pipeline.i
+
+# target to preprocess a source file
+src/lve_pipeline.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VulkanGameEngine.dir/build.make CMakeFiles/VulkanGameEngine.dir/src/lve_pipeline.cpp.i
+.PHONY : src/lve_pipeline.cpp.i
+
+src/lve_pipeline.s: src/lve_pipeline.cpp.s
+.PHONY : src/lve_pipeline.s
+
+# target to generate assembly for a file
+src/lve_pipeline.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VulkanGameEngine.dir/build.make CMakeFiles/VulkanGameEngine.dir/src/lve_pipeline.cpp.s
+.PHONY : src/lve_pipeline.cpp.s
+
 src/lve_window.o: src/lve_window.cpp.o
 .PHONY : src/lve_window.o
 
@@ -213,6 +237,9 @@ help:
 	@echo "... src/first_app.o"
 	@echo "... src/first_app.i"
 	@echo "... src/first_app.s"
+	@echo "... src/lve_pipeline.o"
+	@echo "... src/lve_pipeline.i"
+	@echo "... src/lve_pipeline.s"
 	@echo "... src/lve_window.o"
 	@echo "... src/lve_window.i"
 	@echo "... src/lve_window.s"

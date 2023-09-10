@@ -83,10 +83,24 @@ CMakeFiles/VulkanGameEngine.dir/src/first_app.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/VulkanGameEngine.dir/src/first_app.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/john/Documents/vulkan/src/first_app.cpp -o CMakeFiles/VulkanGameEngine.dir/src/first_app.cpp.s
 
+CMakeFiles/VulkanGameEngine.dir/src/lve_pipeline.cpp.o: CMakeFiles/VulkanGameEngine.dir/flags.make
+CMakeFiles/VulkanGameEngine.dir/src/lve_pipeline.cpp.o: ../src/lve_pipeline.cpp
+CMakeFiles/VulkanGameEngine.dir/src/lve_pipeline.cpp.o: CMakeFiles/VulkanGameEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/john/Documents/vulkan/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/VulkanGameEngine.dir/src/lve_pipeline.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VulkanGameEngine.dir/src/lve_pipeline.cpp.o -MF CMakeFiles/VulkanGameEngine.dir/src/lve_pipeline.cpp.o.d -o CMakeFiles/VulkanGameEngine.dir/src/lve_pipeline.cpp.o -c /home/john/Documents/vulkan/src/lve_pipeline.cpp
+
+CMakeFiles/VulkanGameEngine.dir/src/lve_pipeline.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/VulkanGameEngine.dir/src/lve_pipeline.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/john/Documents/vulkan/src/lve_pipeline.cpp > CMakeFiles/VulkanGameEngine.dir/src/lve_pipeline.cpp.i
+
+CMakeFiles/VulkanGameEngine.dir/src/lve_pipeline.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/VulkanGameEngine.dir/src/lve_pipeline.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/john/Documents/vulkan/src/lve_pipeline.cpp -o CMakeFiles/VulkanGameEngine.dir/src/lve_pipeline.cpp.s
+
 CMakeFiles/VulkanGameEngine.dir/src/lve_window.cpp.o: CMakeFiles/VulkanGameEngine.dir/flags.make
 CMakeFiles/VulkanGameEngine.dir/src/lve_window.cpp.o: ../src/lve_window.cpp
 CMakeFiles/VulkanGameEngine.dir/src/lve_window.cpp.o: CMakeFiles/VulkanGameEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/john/Documents/vulkan/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/VulkanGameEngine.dir/src/lve_window.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/john/Documents/vulkan/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/VulkanGameEngine.dir/src/lve_window.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VulkanGameEngine.dir/src/lve_window.cpp.o -MF CMakeFiles/VulkanGameEngine.dir/src/lve_window.cpp.o.d -o CMakeFiles/VulkanGameEngine.dir/src/lve_window.cpp.o -c /home/john/Documents/vulkan/src/lve_window.cpp
 
 CMakeFiles/VulkanGameEngine.dir/src/lve_window.cpp.i: cmake_force
@@ -100,7 +114,7 @@ CMakeFiles/VulkanGameEngine.dir/src/lve_window.cpp.s: cmake_force
 CMakeFiles/VulkanGameEngine.dir/src/main.cpp.o: CMakeFiles/VulkanGameEngine.dir/flags.make
 CMakeFiles/VulkanGameEngine.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/VulkanGameEngine.dir/src/main.cpp.o: CMakeFiles/VulkanGameEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/john/Documents/vulkan/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/VulkanGameEngine.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/john/Documents/vulkan/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/VulkanGameEngine.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VulkanGameEngine.dir/src/main.cpp.o -MF CMakeFiles/VulkanGameEngine.dir/src/main.cpp.o.d -o CMakeFiles/VulkanGameEngine.dir/src/main.cpp.o -c /home/john/Documents/vulkan/src/main.cpp
 
 CMakeFiles/VulkanGameEngine.dir/src/main.cpp.i: cmake_force
@@ -114,6 +128,7 @@ CMakeFiles/VulkanGameEngine.dir/src/main.cpp.s: cmake_force
 # Object files for target VulkanGameEngine
 VulkanGameEngine_OBJECTS = \
 "CMakeFiles/VulkanGameEngine.dir/src/first_app.cpp.o" \
+"CMakeFiles/VulkanGameEngine.dir/src/lve_pipeline.cpp.o" \
 "CMakeFiles/VulkanGameEngine.dir/src/lve_window.cpp.o" \
 "CMakeFiles/VulkanGameEngine.dir/src/main.cpp.o"
 
@@ -121,6 +136,7 @@ VulkanGameEngine_OBJECTS = \
 VulkanGameEngine_EXTERNAL_OBJECTS =
 
 VulkanGameEngine: CMakeFiles/VulkanGameEngine.dir/src/first_app.cpp.o
+VulkanGameEngine: CMakeFiles/VulkanGameEngine.dir/src/lve_pipeline.cpp.o
 VulkanGameEngine: CMakeFiles/VulkanGameEngine.dir/src/lve_window.cpp.o
 VulkanGameEngine: CMakeFiles/VulkanGameEngine.dir/src/main.cpp.o
 VulkanGameEngine: CMakeFiles/VulkanGameEngine.dir/build.make
@@ -130,7 +146,7 @@ VulkanGameEngine: /usr/lib/x86_64-linux-gnu/librt.a
 VulkanGameEngine: /usr/lib/x86_64-linux-gnu/libm.so
 VulkanGameEngine: /usr/lib/x86_64-linux-gnu/libX11.so
 VulkanGameEngine: CMakeFiles/VulkanGameEngine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/john/Documents/vulkan/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable VulkanGameEngine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/john/Documents/vulkan/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable VulkanGameEngine"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/VulkanGameEngine.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
