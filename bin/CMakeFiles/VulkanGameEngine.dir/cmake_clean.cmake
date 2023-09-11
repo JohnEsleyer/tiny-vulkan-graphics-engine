@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/VulkanGameEngine.dir/src/first_app.cpp.o"
   "CMakeFiles/VulkanGameEngine.dir/src/first_app.cpp.o.d"
+  "CMakeFiles/VulkanGameEngine.dir/src/lve_device.cpp.o"
+  "CMakeFiles/VulkanGameEngine.dir/src/lve_device.cpp.o.d"
   "CMakeFiles/VulkanGameEngine.dir/src/lve_pipeline.cpp.o"
   "CMakeFiles/VulkanGameEngine.dir/src/lve_pipeline.cpp.o.d"
   "CMakeFiles/VulkanGameEngine.dir/src/lve_window.cpp.o"

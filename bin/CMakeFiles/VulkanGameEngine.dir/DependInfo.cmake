@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/john/Documents/vulkan/src/first_app.cpp" "CMakeFiles/VulkanGameEngine.dir/src/first_app.cpp.o" "gcc" "CMakeFiles/VulkanGameEngine.dir/src/first_app.cpp.o.d"
+  "/home/john/Documents/vulkan/src/lve_device.cpp" "CMakeFiles/VulkanGameEngine.dir/src/lve_device.cpp.o" "gcc" "CMakeFiles/VulkanGameEngine.dir/src/lve_device.cpp.o.d"
   "/home/john/Documents/vulkan/src/lve_pipeline.cpp" "CMakeFiles/VulkanGameEngine.dir/src/lve_pipeline.cpp.o" "gcc" "CMakeFiles/VulkanGameEngine.dir/src/lve_pipeline.cpp.o.d"
   "/home/john/Documents/vulkan/src/lve_window.cpp" "CMakeFiles/VulkanGameEngine.dir/src/lve_window.cpp.o" "gcc" "CMakeFiles/VulkanGameEngine.dir/src/lve_window.cpp.o.d"
   "/home/john/Documents/vulkan/src/main.cpp" "CMakeFiles/VulkanGameEngine.dir/src/main.cpp.o" "gcc" "CMakeFiles/VulkanGameEngine.dir/src/main.cpp.o.d"
