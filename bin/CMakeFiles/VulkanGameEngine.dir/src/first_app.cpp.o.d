@@ -141,6 +141,7 @@ CMakeFiles/VulkanGameEngine.dir/src/first_app.cpp.o: \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
  /home/john/Documents/vulkan/include/lve_pipeline.hpp \
+ /home/john/Documents/vulkan/include/lve_device.hpp \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_uninitialized.h \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
